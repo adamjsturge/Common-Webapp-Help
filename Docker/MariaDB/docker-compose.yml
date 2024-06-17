@@ -1,0 +1,5 @@
+services:
+  redis:
+    image: "mariadb:latest"
+    ports:
+      - "3306:3306"
